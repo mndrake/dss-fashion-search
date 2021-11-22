@@ -32,12 +32,27 @@
   },
   "steps": [
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
+        "expression": "val(\"Image URL\").split(\"/\")[-1]",
         "column": "image_path"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Image URL"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
       },
       "alwaysShowComment": false
     }
@@ -56,8 +71,9 @@
     "Image URL_6": 100,
     "Image URL_5": 100,
     "Image URL": 300,
-    "Image URL_4": 100,
     "description": 300,
+    "image_path": 169,
+    "Image URL_4": 100,
     "Image URL_3": 100,
     "Image URL_2": 100,
     "Image URL_1": 127,
