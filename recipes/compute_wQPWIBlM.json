@@ -24,6 +24,10 @@
         {
           "ref": "FEIDEGGER_release_1_0_english",
           "deps": []
+        },
+        {
+          "ref": "FEIDEGGER_release_1_1_json",
+          "deps": []
         }
       ]
     }
@@ -40,11 +44,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637599591866
+    "lastModifiedOn": 1637599992640
   },
   "creationTag": {
     "versionNumber": 0,
