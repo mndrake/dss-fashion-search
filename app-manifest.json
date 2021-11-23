@@ -1,0 +1,31 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportModelEvaluationStores": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [],
+  "label": "Fashion Search",
+  "shortDesc": "The template *Fashion Search* was created by Administrator on Nov 23rd 2021",
+  "tags": [],
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+}
