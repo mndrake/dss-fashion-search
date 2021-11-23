@@ -36,11 +36,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637704345315
+    "lastModifiedOn": 1637704372481
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,7 +57,12 @@
     "importProjectKey": "FASHIONSEARCH"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "Query Text",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
