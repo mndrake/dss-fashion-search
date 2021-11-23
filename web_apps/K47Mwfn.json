@@ -4,7 +4,7 @@
   "params": {
     "backendEnabled": true,
     "enableJavascriptModules": false,
-    "autoStartBackend": false,
+    "autoStartBackend": true,
     "hideJSSecurityPanel": false,
     "envSelection": {
       "envMode": "INHERIT"
@@ -36,15 +36,17 @@
     },
     "forceAuthentication": false
   },
-  "config": {},
+  "config": {
+    "data_folder": "wQPWIBlM"
+  },
   "name": "Fashion Search",
   "apiKey": "w2NcT4BoWmlV107Ro9we6C0ibPE2Hu4I",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637691521999
+    "lastModifiedOn": 1637691545421
   },
   "creationTag": {
     "versionNumber": 0,
