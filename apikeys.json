@@ -30,5 +30,28 @@
     "key": "w2NcT4BoWmlV107Ro9we6C0ibPE2Hu4I",
     "label": "Key for Web app Fashion Search(K47Mwfn)",
     "createdOn": 1637691521575
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "ZOlCxvz",
+    "id": "c6sANX2RXVGLxekr",
+    "key": "rRZNnc6Zl8ZsrBR5U3D4kFjjh2pkVjk2",
+    "label": "Key for Web app search(ZOlCxvz)",
+    "createdOn": 1637699491518
   }
 ]
