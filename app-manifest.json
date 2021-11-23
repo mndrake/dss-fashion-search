@@ -12,18 +12,52 @@
     "exportInsightsData": false,
     "includedDatasetsData": [],
     "includedSavedModels": [],
-    "includedManagedFolders": [],
+    "includedManagedFolders": [
+      {
+        "id": "UKTXMoc0",
+        "name": "model"
+      },
+      {
+        "id": "wQPWIBlM",
+        "name": "images"
+      }
+    ],
     "includedModelEvaluationStores": [],
     "exportGitRepository": false
   },
   "instanceFeatures": {
-    "showFlowNavLink": false,
-    "showLabNavLink": false,
-    "showCodeNavLink": false,
-    "showVersionControlFeatures": false
+    "showFlowNavLink": true,
+    "showLabNavLink": true,
+    "showCodeNavLink": true,
+    "showVersionControlFeatures": true
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "sectionTitle": "Semantic Style Search",
+      "tiles": [
+        {
+          "behavior": "MODAL",
+          "params": [
+            {
+              "name": "query",
+              "type": "STRING",
+              "label": "query string",
+              "description": "query string",
+              "mandatory": false,
+              "canSelectForeign": false,
+              "markCreatedAsBuilt": false,
+              "allowDuplicates": true,
+              "getChoicesFromPython": false,
+              "canCreateDataset": false
+            }
+          ],
+          "type": "PROJECT_VARIABLES_EDIT",
+          "prompt": "Query"
+        }
+      ]
+    }
+  ],
   "label": "Fashion Search",
   "shortDesc": "The template *Fashion Search* was created by Administrator on Nov 23rd 2021",
   "tags": [],
