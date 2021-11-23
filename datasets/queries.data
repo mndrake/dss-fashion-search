@@ -1,13 +1,10 @@
 {
   "data": [
     [
-      "yellow dress"
-    ],
-    [
       "blue dress"
     ],
     [
-      null
+      "yellow dress"
     ]
   ],
   "schema": {
