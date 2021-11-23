@@ -40,11 +40,11 @@
   "name": "search",
   "apiKey": "rRZNnc6Zl8ZsrBR5U3D4kFjjh2pkVjk2",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637699500952
+    "lastModifiedOn": 1637699618777
   },
   "creationTag": {
     "versionNumber": 0,
