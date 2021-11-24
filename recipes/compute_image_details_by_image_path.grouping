@@ -42,7 +42,7 @@
       "concatSeparator": ","
     }
   ],
-  "globalCount": true,
+  "globalCount": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -91,10 +91,6 @@
           {
             "name": "description_concat",
             "type": "string"
-          },
-          {
-            "name": "count",
-            "type": "bigint"
           }
         ],
         "userModified": false
