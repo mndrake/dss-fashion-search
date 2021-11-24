@@ -1,7 +1,14 @@
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
+#%config IPCompleter.use_jedi = False
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
+import inference
+
+# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 
 # Read recipe inputs
 image_details_by_image_path = dataiku.Dataset("image_details_by_image_path")
