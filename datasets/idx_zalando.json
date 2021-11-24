@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637774546081
+    "lastModifiedOn": 1637782194426
   },
   "creationTag": {
     "versionNumber": 0,
@@ -47,11 +47,25 @@
     "notReadyIfEmpty": false,
     "index": "idx_zalando",
     "type": "idx_zalando",
+    "customMapping": "{\n  \"properties\": {\n    \"image\": {\n      \"type\": \"text\"\n    },\n    \"description\": {\n      \"type\": \"text\"\n    },\n    \"zalando_nlu_vector\": {\n      \"type\": \"dense_vector\"\n    }\n  },\n  \"date_detection\": false\n}",
     "frameSize": 10000,
     "partitioned": false
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "image",
+        "type": "string"
+      },
+      {
+        "name": "description",
+        "type": "string"
+      },
+      {
+        "name": "zalando_nlu_vector",
+        "type": "string"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
