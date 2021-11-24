@@ -5,7 +5,18 @@
   },
   "keys": [
     {
-      "column": "image_path"
+      "countDistinct": false,
+      "min": false,
+      "avg": false,
+      "last": false,
+      "max": false,
+      "column": "image_path",
+      "count": false,
+      "sum": false,
+      "concat": false,
+      "type": "string",
+      "stddev": false,
+      "first": false
     }
   ],
   "values": [
@@ -15,15 +26,20 @@
       "firstLastNotNull": false,
       "column": "description",
       "count": false,
+      "$idx": 0,
       "sum": false,
-      "concat": false,
+      "concat": true,
+      "type": "string",
       "concatDistinct": false,
       "sum2": false,
       "min": false,
       "countDistinct": false,
       "avg": false,
+      "$selected": false,
       "stddev": false,
-      "first": false
+      "first": false,
+      "orderColumn": "image_path",
+      "concatSeparator": ","
     }
   ],
   "globalCount": true,
@@ -62,8 +78,28 @@
     }
   },
   "enlargeYourBits": true,
+  "outputColumnNameOverrides": {},
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "image_path",
+            "type": "string"
+          },
+          {
+            "name": "description_concat",
+            "type": "string"
+          },
+          {
+            "name": "count",
+            "type": "bigint"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   }
