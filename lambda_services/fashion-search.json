@@ -5,7 +5,14 @@
       "envSelection": {
         "envMode": "INHERIT"
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "name": "Sample Query",
+          "q": {
+            "query": "blue dress with yellow flowers"
+          }
+        }
+      ],
       "inputFolderRefs": [
         {
           "ref": "UKTXMoc0"
