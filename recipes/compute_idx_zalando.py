@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-%config IPCompleter.use_jedi = False
+#%config IPCompleter.use_jedi = False
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # -*- coding: utf-8 -*-
