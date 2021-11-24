@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637774244250
+    "lastModifiedOn": 1637774267882
   },
   "creationTag": {
     "versionNumber": 0,
@@ -88,6 +88,10 @@
     "columns": [
       {
         "name": "image_path",
+        "type": "string"
+      },
+      {
+        "name": "description_concat",
         "type": "string"
       },
       {
