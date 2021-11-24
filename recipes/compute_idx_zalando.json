@@ -24,6 +24,10 @@
         {
           "ref": "image_details_by_image_path",
           "deps": []
+        },
+        {
+          "ref": "UKTXMoc0",
+          "deps": []
         }
       ]
     }
@@ -40,11 +44,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637774611755
+    "lastModifiedOn": 1637774626840
   },
   "creationTag": {
     "versionNumber": 0,
