@@ -29,10 +29,7 @@ def make_feature_vec(row, model):
     return feature_vec
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-sample_row = image_details_by_image_path_df.head(1).to_dict(orient='records')[0]
-
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-model_dim = len(make_feature_vec(row, model))
+model_dim = len(inference.predict_fn("blue dress", model))
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # create elasticsearch Index
