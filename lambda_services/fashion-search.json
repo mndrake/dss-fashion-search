@@ -31,7 +31,8 @@
         {
           "name": "blue dress",
           "q": {
-            "query": "blue dress"
+            "query": "blue dress",
+            "k": 3
           }
         }
       ],
