@@ -54,6 +54,7 @@ def get_embeddings():
     for row in image_details_by_image_path.iter_rows():
         embeddings = make_feature_vec(row, model)
         doc = {
+            '_index': 'idx_zalando',
             'image': row['image_path'],
             'description': row['description_concat'],
             'zalando_nlu_vector': embeddings
