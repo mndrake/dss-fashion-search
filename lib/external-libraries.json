@@ -3,7 +3,8 @@
     "github": {
       "remote": "https://github.com/mndrake/euler-math.git",
       "checkout": "refs/heads/master",
-      "remotePath": ""
+      "remotePath": "",
+      "lastHash": "4d5a07cb37ebf122cffae3c97dd164f6c9aefcd8"
     }
   },
   "pythonPath": [
