@@ -22,7 +22,7 @@
   "permissions": [
     {
       "group": "readgroup",
-      "admin": false,
+      "admin": true,
       "readProjectContent": true,
       "writeProjectContent": true,
       "exportDatasetsData": true,
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638215385535
+    "lastModifiedOn": 1638215461876
   },
   "creationTag": {
     "versionNumber": 0,
