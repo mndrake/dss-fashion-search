@@ -23,7 +23,7 @@
     {
       "group": "readgroup",
       "admin": false,
-      "readProjectContent": false,
+      "readProjectContent": true,
       "writeProjectContent": false,
       "exportDatasetsData": true,
       "readDashboards": false,
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638214993865
+    "lastModifiedOn": 1638214999260
   },
   "creationTag": {
     "versionNumber": 0,
