@@ -1,7 +1,14 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "euler_math": {
+      "remote": "https://github.com/mndrake/euler-math.git",
+      "checkout": "refs/heads/master",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
-    "python"
+    "python",
+    "euler_math"
   ],
   "rsrcPath": [
     "R"
