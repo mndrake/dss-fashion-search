@@ -50,7 +50,14 @@
       "envSelection": {
         "envMode": "INHERIT"
       },
-      "testQueries": [],
+      "testQueries": [
+        {
+          "q": {
+            "query": "blue dress",
+            "k": 3
+          }
+        }
+      ],
       "inputFolderRefs": [],
       "userFunctionName": "api_py_function",
       "code": "import dataiku\nimport inference\nfrom elasticsearch import Elasticsearch\n\nes \u003d Elasticsearch()\n\ndef api_py_function(query, k):\n    \n    response \u003d inference.es_match_query(query, es, k)\n    \n\n    #response \u003d es.search(index\u003d\u0027idx_zalando\u0027, **search_query)\n    #results \u003d [r[\u0027_source\u0027][\u0027image\u0027] for r in response[\u0027hits\u0027][\u0027hits\u0027]]\n    #image_urls \u003d [f\u0027http://localhost:11500/dip/api/managedfolder/preview-image?projectKey\u003dFASHIONSEARCH\u0026odbId\u003dwQPWIBlM\u0026itemPath\u003d{i}\u0026contentType\u003dimage/jpeg\u0027 for i in results]\n      \n    #return {\u0027images\u0027: image_urls}\n    return response",
