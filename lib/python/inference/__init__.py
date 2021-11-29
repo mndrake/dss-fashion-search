@@ -1,6 +1,5 @@
 import argparse
 import logging
-#import sagemaker_containers
 import requests
 
 import os
@@ -9,7 +8,6 @@ import io
 import time
 import torch
 from transformers import AutoTokenizer, AutoModel
-# from sentence_transformers import models, losses, SentenceTransformer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
