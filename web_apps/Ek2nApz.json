@@ -36,15 +36,18 @@
     },
     "forceAuthentication": false
   },
-  "config": {},
+  "config": {
+    "model_folder": "UKTXMoc0",
+    "image_folder": "wQPWIBlM"
+  },
   "name": "fs",
   "apiKey": "holjQVz06DRAZTXctbYPduh2UygKpaTD",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638295785949
+    "lastModifiedOn": 1638295804826
   },
   "creationTag": {
     "versionNumber": 0,
