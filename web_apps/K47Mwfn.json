@@ -37,16 +37,17 @@
     "forceAuthentication": false
   },
   "config": {
-    "data_folder": "wQPWIBlM"
+    "data_folder": "wQPWIBlM",
+    "model_folder": "UKTXMoc0"
   },
   "name": "Fashion Search",
   "apiKey": "w2NcT4BoWmlV107Ro9we6C0ibPE2Hu4I",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1637691545421
+    "lastModifiedOn": 1638293393528
   },
   "creationTag": {
     "versionNumber": 0,
