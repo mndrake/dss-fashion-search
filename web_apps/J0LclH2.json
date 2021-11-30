@@ -36,15 +36,17 @@
     },
     "forceAuthentication": false
   },
-  "config": {},
+  "config": {
+    "model_folder": "UKTXMoc0"
+  },
   "name": "fashion-search",
   "apiKey": "ViSfpnhpDbApJx1OSRFHaO1ZT1x43pzc",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638293713510
+    "lastModifiedOn": 1638293721212
   },
   "creationTag": {
     "versionNumber": 0,
