@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "YTWS4x3",
+    "id": "68VvnbzShYqIun8w",
+    "key": "7tf1B3ghLqIgEJNyocEY87C6TPUtrLBo",
+    "label": "Key for Web app fs(YTWS4x3)",
+    "createdOn": 1638402817706
+  }
+]
