@@ -4,7 +4,7 @@
   "params": {
     "backendEnabled": true,
     "enableJavascriptModules": false,
-    "autoStartBackend": false,
+    "autoStartBackend": true,
     "hideJSSecurityPanel": false,
     "envSelection": {
       "envMode": "INHERIT"
@@ -44,11 +44,11 @@
   "name": "fs",
   "apiKey": "zn3OrpPgHcNMzSBLESS8sWIYrJ4eWLdu",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638406422543
+    "lastModifiedOn": 1638406433258
   },
   "creationTag": {
     "versionNumber": 0,
