@@ -36,15 +36,19 @@
     },
     "forceAuthentication": false
   },
-  "config": {},
+  "config": {
+    "es_index": "idx_zalando",
+    "image_folder": "wQPWIBlM",
+    "model_folder": "UKTXMoc0"
+  },
   "name": "fs",
   "apiKey": "zn3OrpPgHcNMzSBLESS8sWIYrJ4eWLdu",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1638405948349
+    "lastModifiedOn": 1638406422543
   },
   "creationTag": {
     "versionNumber": 0,
